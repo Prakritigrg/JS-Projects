@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 2px solid black;
+    box-shadow: 2px yellow;
+}
+body{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+.main{
+display: flex;
+align-items: center;
+justify-content: space-around;
+height: 200px;
+width: 600px;
+background: white;
+box-shadow: 0 0 4px black;
+border-radius: 15px;
+margin-bottom: 100px;
+
+}
+#colorPanel{
+    height: 40px;
+    width: 60px;
+    cursor: pointer;
+}
+#btn{
+    background: black;
+    color: white;
+    height: 40px;
+    width: 140px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#box{
+    border: 2px solid rgb(105, 105, 105);
+    border-radius: 50px;
+    height: 40px;
+    width: 150px;
+    padding: 0 10px;
+}
+h3{
+     padding-top: 50px; 
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
